@@ -1,0 +1,11 @@
+Create table Youtube_Analysis(
+	category_id VARCHAR(10),
+	views INT,
+	likes INT,
+	dislikes INT,
+	commnet_count INT,
+	channel_title VARCHAR,
+	publish_time DATE,
+	trending_date DATE,
+Primary Key (category_id)
+);
