@@ -9,3 +9,5 @@ We focused on the United States (USA) csv file that contains the video title, ch
 3. The average number of views of a trending video
 4. The average number of likes for a trending video
 5. The average number of comments for a trending video
+
+The team will be meeting during regular class hours over Zoom (Tuesday, Thursday, Saturday) and primarily communicating in non office hours through Slack. Additional meetings times can be schduled as neccessary based on individual schedules.
