@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trending YouTube</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Predict trendability of YouTube Videos</h1>
+        <h3>Enter the following values to predict the trendability of your YouTube Video:</h3>
+
+        <!-- Main input for Recieving Query to our ML -->
+        <form action="{{ url_for('predict')}}"method="post">
+          <input type="text" name="Category" placeholder="EXAMPLE HERE" required="required" />
+          <input type="text" name="Published Month" placeholder="EXAMPLE HERE" required="required" />
+          <input type="text" name="Current Views" placeholder="EXAMPLE HERE" required="required" />
+
+          <button type="submit" class="btn">Predict</button>
+        </form>
+
+        <br>
+        <br>
+        <br>
+        {{ prediction_text }}
+    
+    </div>
+  </body>
+</html>
+
