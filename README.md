@@ -11,6 +11,6 @@ Reason for Selecting Topic
 The team will be meeting during regular class hours over Zoom (Tuesday, Thursday, Saturday) and primarily communicating in non office hours through Slack. Additional meetings times can be schduled as neccessary based on individual schedules.
 
 ## Description of the Source Data: 
-The dataset we used for our project is obtained from Kaggle [],(https://www.kaggle.com/datasets/datasnaek/youtube-new)
+The dataset we used for our project is obtained from Kaggle [(https://www.kaggle.com/datasets/datasnaek/youtube-new)]
 
 
