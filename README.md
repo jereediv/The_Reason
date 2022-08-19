@@ -10,3 +10,16 @@ Reason for Selecting Topic
 
 
 The team will be meeting during regular class hours over Zoom (Tuesday, Thursday, Saturday) and primarily communicating in non office hours through Slack. Additional meetings times can be schduled as neccessary based on individual schedules.
+
+What's been finished for each piece of the project:
+- Database: 
+  - schema planned
+  - data loaded to AWS
+  - used colab to push to PgAdmin
+- Machine Learning:
+  - something here
+- Website:
+  - initial html and app.py written
+- Presentation:
+  - google slides outline created
+
