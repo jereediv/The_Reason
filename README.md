@@ -12,5 +12,5 @@ The team will be meeting during regular class hours over Zoom (Tuesday, Thursday
 
 ## Description of the Source Data: 
 The dataset we used for our project is obtained from Kaggle: [](https://www.kaggle.com/datasets/datasnaek/youtube-new)
-
+Software: Python, Flask, Jupyter Notebook, SQL, PostgreSQL and pgAdmin, HTML, CSS
 
