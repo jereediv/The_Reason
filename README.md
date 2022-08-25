@@ -11,6 +11,10 @@ Reason for Selecting Topic
 The team will be meeting during regular class hours over Zoom (Tuesday, Thursday, Saturday) and primarily communicating in non office hours through Slack. Additional meetings times can be schduled as neccessary based on individual schedules.
 
 ## Description of the Source Data: 
+
+The data source contains over 40,000 videos with columns for category, publish date, trending date, tags, titles, and views.  We have reformatted the data set to show the difference in time between when the video was posted and when it went trending.  We were also forced to remove the channel text as it ruined the machine learning model, requiring too many inputs from the user.  
+
 The dataset we used for our project is obtained from Kaggle: [](https://www.kaggle.com/datasets/datasnaek/youtube-new)
+
 Software: Python, Flask, Jupyter Notebook, SQL, PostgreSQL and pgAdmin, HTML, CSS
 
