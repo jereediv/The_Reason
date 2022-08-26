@@ -30,6 +30,15 @@ Note: The descriptions and explanations required in all other project deliverabl
 - Description of how data was split into training and testing sets
 - Explanation of model choice, including limitations and benefits
 
+# Machine Learning
+- The data started as a .csv with over 40,000 rows of Youtube videos with the following columns: video_id, trending_date, channel_id, category_id, publish_time, tags, views, likes, dislikes, comment_count, thumbnail, comments_disabled, ratings_disabled, video_error, description.
+- I then began pre-processing the data by removing the video_id, thumbnail_link, video_error_or_removed, comment_count, likes, and dislikes.  These columns were removed due to not having any bearing on the prediction model.  As we are predicting a future videos time to trending, we cannot input the comment counts, likes, or dislikes into the model.  The video_id and thumbnail link also should have no bearing in the final prediction. The next step was to concatanate the text columns into one column, combining the tags, title, channel title, and description.  The next step was to format the date columns into datetime then substract the trending date from the published date to come up with a difference in hours and days the videos took to reach trending.  
+- In the machine model build, I changed the comments disabled and ratings disabled columns to 0's and 1's to better work with the machine model.  The decision was also made to drop the channel text column at this point as it caused the model to require over 1200 user inputs to generate the model.  The X variable was built using the category, comments_disabled, ratings_disabled, and published_month columns.  The y variable was built as the target of hours to trending.  
+- After testing BRFC, I tried the BalancedRandomForestRegressor and received pretty good results as this is a regression problem that takes in many inputs but does not have a specific output we are looking for.  
+- The model was built using Pipeline so that the model could take in data, then scale it, then output the results.
+- The model was then saved as a pickle file to be used in our web app.
+
+
 # Database
 FULLY INTEGRATED DATABASE
 - Database stores static data for use during the project
