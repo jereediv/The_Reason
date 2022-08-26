@@ -39,14 +39,18 @@ Note: The descriptions and explanations required in all other project deliverabl
 - The model was built using Pipeline so that the model could take in data, then scale it, then output the results.
 - The model was then saved as a pickle file to be used in our web app.
 
-
 # Database
 FULLY INTEGRATED DATABASE
 - Database stores static data for use during the project
-- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+	-To store our data we created an RDS with Amazon. We linked our Amazon data base to PgAdmin and succesfully created a database call The_Reason. Here we also created a bucket where we stored all of our cvs files so that they could be accessed via Google Colab.
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) 
+	-The table data from SQL is being pulled and used in our Machine Learning code.
 - Includes at least two tables (or collections, if using MongoDB)
+	-Currently in our Database, we have two tables. The first table is the Youtube_analysis_US, which holds the top trending videos for the United States. The table shows the following columns; category_id, views, comments_disabled, ratings_disabled, channel_text, difference_d, difference_h, published_year, published_month, trending_year, and trending_month. Our second table is the exact same format as the US data, but it data it uses corresponds to the United Kingdom.
 - Includes at least one join using the database language (not including any joins in Pandas)
+	-In PgAdmin, we used an insert function to join the two datasets we had. This created a merged table that hodl both of our youtube analysis data for both the UK and the US. 
 - Includes at least one connection string (using SQLAlchemy or PyMongo)
+	-For our database, we used Google Colab as our connection string. We were able to pull the cvs file from the amazon bucket and then creata a dataframe with it. From here were were able to connect to our server and upload the dataframe into it. 
 Note: If you use a SQL database, you must provide your ERD with relationships.
 
 # Dashboard
