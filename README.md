@@ -27,8 +27,8 @@ We looked at data for over 40,950 trending YouTube video from different countrie
 - [ ] each team has four commits for the second segment (eight commits total)
 - [x] description of preliminary data preprocessing
 - [x] description of preliminary feature engineering and preliminary feature selection, including their decision-making process
-- [ ] Description of how data was split into training and testing sets
-- [ ] Explanation of model choice, including limitations and benefits
+- [x] Description of how data was split into training and testing sets
+- [x] Explanation of model choice, including limitations and benefits
 
 # Machine Learning
 - The data started as a .csv with over 40,000 rows of Youtube videos with the following columns: video_id, trending_date, channel_id, category_id, publish_time, tags, views, likes, dislikes, comment_count, thumbnail, comments_disabled, ratings_disabled, video_error, description.
