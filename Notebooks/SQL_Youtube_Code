@@ -1,0 +1,49 @@
+Create Table youtube_analysis_us(
+	category_id VARCHAR,
+	views Int,
+	comments_disabled VARCHAR,
+	ratings_disabled VARCHAR,
+	channel_text VARCHAR,
+	difference_d Int,
+	difference_h INT,
+	published_year Date,
+	published_month DATE,
+	trending_year DATE,
+	trending_month DATE
+);
+
+Create Table youtube_analysis_gb(
+	category_id VARCHAR,
+	views Int,
+	comments_disabled VARCHAR,
+	ratings_disabled VARCHAR,
+	channel_text VARCHAR,
+	difference_d Int,
+	difference_h INT,
+	published_year Date,
+	published_month DATE,
+	trending_year DATE,
+	trending_month DATE
+);
+
+Create Table youtube_analysis_merged(
+	category_id VARCHAR,
+	views Int,
+	comments_disabled VARCHAR,
+	ratings_disabled VARCHAR,
+	channel_text VARCHAR,
+	difference_d Int,
+	difference_h INT,
+	published_year Date,
+	published_month DATE,
+	trending_year DATE,
+	trending_month DATE
+);
+
+INSERT INTO youtube_analysis_merged(category_id, views, comments_disabled, ratings_disabled, channel_text, difference_d, difference_h, published_year, published_month, trending_year, trending_month)
+Select category_id, views, comments_disabled, ratings_disabled, channel_text, difference_d, difference_h, published_year, published_month, trending_year, trending_month
+FROM youtube_analysis_us
+INSERT INTO youtube_analysis_merged(category_id, views, comments_disabled, ratings_disabled, channel_text, difference_d, difference_h, published_year, published_month, trending_year, trending_month)
+Select category_id, views, comments_disabled, ratings_disabled, channel_text, difference_d, difference_h, published_year, published_month, trending_year, trending_month
+FROM youtube_analysis_gb
+
