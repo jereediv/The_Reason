@@ -52,6 +52,6 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 
 # Dashboard
 A blueprint for the dashboard is created and includes all of the following:
-- Storyboard will be on Tableau
-- Description of interactive element(s): We are attempting to build an interactive web app which will give the days to trending on YouTube videos based on the month uploaded to YouTube, it's category, and whether the Comments and Ratings were enabled. Obviously this will not predeict whether or not a video will trend, but will give guess on how many days until the video will trend if that is going to happen.
+- Using Tableau, we will import and visualize the data in worksheets with a variety of dimensions and measures mentioned below.
+- Description of interactive element(s): We are attempting to build an interactive web app which will give the days to trending on YouTube videos based on the month uploaded to YouTube, it's category, and whether the Comments and Ratings were enabled. Obviously, this will not predict whether or not a video will trend, but will give guess on how many days until the video will trend if that is going to happen.
 
