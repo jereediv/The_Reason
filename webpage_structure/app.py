@@ -1,13 +1,13 @@
 #import libraries
 import numpy as np
-#from joblib import load
+from joblib import load
 from flask import Flask, request, jsonify, render_template
-import pickle
+#import pickle
 
 #Initialize the flask App
 app = Flask(__name__)
-model = pickle.load(open('Hours_trending_US.pkl', 'rb'))
-#model = load("BRFRegressor.joblib")
+#model = pickle.load(open('Hours_trending_US.pkl', 'rb'))
+model = load("Hours_trending_US.joblib")
 
 #default page of our web-app
 @app.route('/')
