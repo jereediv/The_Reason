@@ -32,7 +32,7 @@ def predict():
 
     output = round(prediction[0], 2) 
 
-    return render_template('index.html', prediction_text='Approximate days until video trends:{}'.format(output))
+    return render_template('index.html', prediction_text='Approximate days until video trends: {:.2f}'.format(output/24))
     #return render_template('index.html')
 
 
