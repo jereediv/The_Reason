@@ -27,7 +27,7 @@ We looked at data for over 40,950 trending YouTube video from different countrie
 - [ ] all code in main branch is production ready
 - [ ] all code present to perform the exploratory analysis
 - [x] some code for machine learning
-- [x] one branch for each team member
+- [x] one branch for each team member (MICHELLE'S BRANCH IS CALLED SCHEMA)
 - [ ] each team has four commits for the second segment (eight commits total)
 - [x] description of preliminary data preprocessing
 - [x] description of preliminary feature engineering and preliminary feature selection, including their decision-making process
