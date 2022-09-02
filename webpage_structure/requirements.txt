@@ -1,7 +1,9 @@
-Flask
+flask
 gunicorn
 numpy
 sqlalchemy
 bson
 pymongo
 dnspython
+joblib==1.0.1
+sklearn
