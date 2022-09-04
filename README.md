@@ -41,7 +41,16 @@ We looked at data for over 40,950 trending YouTube video from different countrie
 - After testing BRFC, I tried the BalancedRandomForestRegressor and received pretty good results as this is a regression problem that takes in many inputs but does not have a specific output we are looking for.
 - The data was split using train_test_split with the test size being half of the columns in the file.  
 - The model was built using Pipeline so that the model could take in data, then scale it, then output the results.
-- The model was then saved as a pickle file to be used in our web app.
+## Model Accuracy
+### Hours To Trending Model
+![time_to_trending](https://github.com/jereediv/The_Reason/blob/fb434c5b57352955d380bd89288e81f06601b8c8/Images/US_model_accuracy.png)
+
+### View Predictor Model Accuracy
+![views](https://github.com/jereediv/The_Reason/blob/fb434c5b57352955d380bd89288e81f06601b8c8/Images/Views_accuracy.png)
+
+
+
+- The model was then saved as a joblib file to be used in our web app.
 
 # Database
 FULLY INTEGRATED DATABASE
