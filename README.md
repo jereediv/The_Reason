@@ -31,6 +31,7 @@ The US data set was run through machine learning algorithms to determine feature
 
 https://public.tableau.com/app/profile/joel6934/viz/The_Reason/YouTubeTrendingTrends?publish=yes
 
+
 <<<<<<< HEAD
 Machine Learning
 The data started as a .csv with over 40,000 rows of Youtube videos with the following columns: video_id, trending_date, channel_id, category_id, publish_time, tags, views, likes, dislikes, comment_count, thumbnail, comments_disabled, ratings_disabled, video_error, description.
