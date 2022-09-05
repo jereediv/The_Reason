@@ -7,7 +7,7 @@ Segment 3 Deliverables
 
 YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. YouTube trending videos represents the content which is gaining viewership over a certain time period and has a potential to be popular. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
 
-****What determines if a video is ranked on Trending?
+****  What determines if a video is ranked on Trending?
 
 Amongst the many great new videos on YouTube on any given day, Trending can only show a limited number. Trending aims to surface videos that:
 
@@ -58,8 +58,11 @@ YouTube is a world-famous video sharing interactive platform which allows its us
 - Questions
 
 -Output variations - how long does it take to get to trending?
+
 -Can video subject predict view count?
+
 -What is the correlation and importance of variables for the trendiness of a video? 
+
 -How do interactive video features helps a video trend on YouTube?
 
 >>>>>>> 51779646dade81002abeb2d1c92eaf5f4ca9992f
