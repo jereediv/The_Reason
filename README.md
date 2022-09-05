@@ -3,7 +3,7 @@ Segment 3 Deliverables
 Trending Videos on YouTube
 Segment 3 Deliverables
 
-## Project Outline 
+## Project Overview 
 
 YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. YouTube trending videos represents the content which is gaining viewership over a certain time period and has a potential to be popular. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
 
@@ -27,7 +27,6 @@ Source: YouTube Help
 
 ## Questions
 
--Which video category (e.g., Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos and which video remained the most on the trending videos list?
 -Output variations - how long does it take to get to trending?
 -Can video subject predict view count?
 -What is the correlation and importance of variables for the trendiness of a video? 
@@ -50,18 +49,22 @@ Over a billion users visit YouTube in a month and 72 hours of video is uploaded 
         -Link https://docs.google.com/presentation/d/1GapknrPDEKfyTp8ppDorsAvpmXwmo6YzxbQCE0-aFXc/edit
 
 - Project Outline
-YouTube is the most popular and most used free video sharing website. Originally created in 2005, YouTube is now one of the most popular sites 
-on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
+YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. YouTube trending videos represents the content which is gaining viewership over a certain time period and has a potential to be popular. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
 
 - Questions
-	- Which video category (e.g., Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos and which video remained the most on the trending videos list?
-	- Output variations - how long does it take to get to trending?
-	- Can video subject predict view count?
+
+-Output variations - how long does it take to get to trending?
+-Can video subject predict view count?
+-What is the correlation and importance of variables for the trendiness of a video? 
+-How do interactive video features helps a video trend on YouTube?
+
 >>>>>>> 51779646dade81002abeb2d1c92eaf5f4ca9992f
 
 We want to build a model that will predict the best time to post a trending video by factoring time, category, etc.
 This information can be used by Youtubers that want build a successful page and companies that would want to Sponsor YouTube channels based on their views and audience reach.
-Description of source data
+
+
+## Description of source data
 
 The data source contains over 40,000 videos with columns including category, publish date, trending date, tags, titles, and views. We have reformatted the data set to show the difference in time between when the video was posted and when it went trending. We were also forced to remove the channel text as it ruined the machine learning model, requiring too many inputs from the user.
 The dataset we used for our project is obtained from Kaggle: The datasets contain information on videos that were trending beween November 2017 and June 2018. The columns contain the category of the video id, trending date, video title, channel title, category ID, publish date, tags, views, likes, dislikes, comment count, thunbnail link, whether comments and ratings were disabled, video error, and video despription. We worked with sets including US and UK data.
