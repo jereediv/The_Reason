@@ -13,6 +13,10 @@ Reason for Topic
 =======
 ## Segment 3 Deliverables
 
+-Presentation 
+        - We used google slides in order to display our presentation
+        -Link https://docs.google.com/presentation/d/1GapknrPDEKfyTp8ppDorsAvpmXwmo6YzxbQCE0-aFXc/edit
+
 - Project Outline
 We looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
 - Questions
