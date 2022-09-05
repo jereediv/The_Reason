@@ -28,8 +28,11 @@ Source: YouTube Help
 ## Questions
 
 -Output variations - how long does it take to get to trending?
+
 -Can video subject predict view count?
+
 -What is the correlation and importance of variables for the trendiness of a video? 
+
 -How do interactive video features helps a video trend on YouTube?
 
 
