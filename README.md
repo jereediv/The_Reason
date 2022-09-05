@@ -1,15 +1,47 @@
 Trending Videos on YouTube
 Segment 3 Deliverables
-Project Outline We looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
-Questions
-Which video category (e.g., Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos and which video remained the most on the trending videos list?
-Output variations - how long does it take to get to trending?
-Can video subject predict view count?
+Trending Videos on YouTube
+Segment 3 Deliverables
+
+## Project Outline 
+
+YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. YouTube trending videos represents the content which is gaining viewership over a certain time period and has a potential to be popular. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
+
+What determines if a video is ranked on Trending?
+Amongst the many great new videos on YouTube on any given day, Trending can only show a limited number. Trending aims to surface videos that:
+
+Are appealing to a wide range of viewers
+Are not misleading, clickbaity or sensational
+Capture the breadth of what’s happening on YouTube and in the world
+Showcase a diversity of creators
+Ideally, are surprising or novel
+Trending aims to balance all of these considerations. To achieve this, Trending considers many signals, including (but not limited to):
+
+View count
+How quickly the video is generating views (i.e. “temperature”)
+Where views are coming from, including outside of YouTube
+The age of the video
+How the video performs compared to other recent uploads from the same channel
+
+Source: YouTube Help
+
+## Questions
+
+-Which video category (e.g., Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos and which video remained the most on the trending videos list?
+-Output variations - how long does it take to get to trending?
+-Can video subject predict view count?
+-What is the correlation and importance of variables for the trendiness of a video? 
+-How do interactive video features helps a video trend on YouTube?
+
+
 Presentation
 Topic: Analyzing daily trending YouTube videos
 
 <<<<<<< HEAD
-Reason for Topic
+## Reason for Topic
+
+Over a billion users visit YouTube in a month and 72 hours of video is uploaded over YouTube per minute. Therefore, YouTube has become one of the largest platforms for business. Many YouTubers, artists or Content Creators generate revenue from their videos. Since it’s hard to keep track of which content might get trending in near future or might become popular, we wanted to perform predictive analysis using Machine Learning that helps YouTubers to understand how the interactive features affect their videos performance.
+
 =======
 ## Segment 3 Deliverables
 
