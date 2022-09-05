@@ -18,7 +18,9 @@ Reason for Topic
         -Link https://docs.google.com/presentation/d/1GapknrPDEKfyTp8ppDorsAvpmXwmo6YzxbQCE0-aFXc/edit
 
 - Project Outline
-We looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
+YouTube is the most popular and most used free video sharing website. Originally created in 2005, YouTube is now one of the most popular sites 
+on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube video from different countries to identity factors that contribute to a successful trending YouTube video. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
+
 - Questions
 	- Which video category (e.g., Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos and which video remained the most on the trending videos list?
 	- Output variations - how long does it take to get to trending?
