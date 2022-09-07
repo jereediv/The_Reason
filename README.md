@@ -12,17 +12,27 @@ YouTube is a world-famous video sharing interactive platform which allows its us
 Amongst the many great new videos on YouTube on any given day, Trending can only show a limited number. Trending aims to surface videos that:
 
 -Are appealing to a wide range of viewers
+
 -Are not misleading, clickbaity or sensational
+
 -Capture the breadth of what’s happening on YouTube and in the world
+
 -Showcase a diversity of creators
+
 -Ideally, are surprising or novel
+
 -Trending aims to balance all of these considerations.
 
 To achieve this, Trending considers many signals, including (but not limited to):
+
 -View count
+
 -How quickly the video is generating views (i.e. “temperature”)
+
 -Where views are coming from, including outside of YouTube
+
 -The age of the video
+
 -How the video performs compared to other recent uploads from the same channel
 
 Source: YouTube Help
