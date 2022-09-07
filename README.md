@@ -5,24 +5,25 @@ Segment 3 Deliverables
 
 ## Project Overview 
 
-YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube videos from different countries to identity factors that contribute to a successful trending YouTube video. YouTube trending videos represents the content which is gaining viewership over a certain time period and has a potential to be popular. Once identifying key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
+YouTube is a world-famous video sharing interactive platform which allows its users to rate, share, save, comment, and upload the content. Originally created in 2005, YouTube is now one of the most popular sites on the Web, with visitors watching around 6 billion hours of video every month. For this project, we looked at data for over 40,950 trending YouTube videos from different countries to identity factors that contribute to a successful trending YouTube video.  Trending videos represent the content which is gaining viewership over a certain time period and has a potential to be popular. Once we identity key features that predict trendability, we'll be building a model to estimate the amount of time until a YouTube may trend.
 
-What determines if a video is ranked on Trending?
+### What determines if a video is ranked on Trending?
 
 Amongst the many great new videos on YouTube on any given day, Trending can only show a limited number. Trending aims to surface videos that:
 
-Are appealing to a wide range of viewers
-Are not misleading, clickbaity or sensational
-Capture the breadth of what’s happening on YouTube and in the world
-Showcase a diversity of creators
-Ideally, are surprising or novel
-Trending aims to balance all of these considerations. To achieve this, Trending considers many signals, including (but not limited to):
+-Are appealing to a wide range of viewers
+-Are not misleading, clickbaity or sensational
+-Capture the breadth of what’s happening on YouTube and in the world
+-Showcase a diversity of creators
+-Ideally, are surprising or novel
+-Trending aims to balance all of these considerations.
 
-View count
-How quickly the video is generating views (i.e. “temperature”)
-Where views are coming from, including outside of YouTube
-The age of the video
-How the video performs compared to other recent uploads from the same channel
+To achieve this, Trending considers many signals, including (but not limited to):
+-View count
+-How quickly the video is generating views (i.e. “temperature”)
+-Where views are coming from, including outside of YouTube
+-The age of the video
+-How the video performs compared to other recent uploads from the same channel
 
 Source: YouTube Help
 
