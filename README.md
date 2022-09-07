@@ -21,9 +21,7 @@ Amongst the many great new videos on YouTube on any given day, Trending can only
 
 -Ideally, are surprising or novel
 
--Trending aims to balance all of these considerations.
-
-To achieve this, Trending considers many signals, including (but not limited to):
+-Trending aims to balance all of these considerations. To achieve this, Trending considers many signals, including (but not limited to):
 
 -View count
 
@@ -32,7 +30,8 @@ To achieve this, Trending considers many signals, including (but not limited to)
 -Where views are coming from, including outside of YouTube
 
 -The age of the video
-  -How the video performs compared to other recent uploads from the same channel
+ 
+-How the video performs compared to other recent uploads from the same channel
 
 Source: YouTube Help
 
