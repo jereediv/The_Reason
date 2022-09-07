@@ -40,7 +40,7 @@ Source: YouTube Help
 Presentation
 Topic: Analyzing daily trending YouTube videos
 
-<<<<<<< HEAD
+
 ## Reason for Topic
 
 Over a billion users visit YouTube in a month and 72 hours of video is uploaded over YouTube per minute. Therefore, YouTube has become one of the largest platforms for business. Many YouTubers, artists or Content Creators generate revenue from their videos. Since it’s hard to keep track of which content might get trending in near future or might become popular, we wanted to perform predictive analysis using Machine Learning that helps YouTubers to understand how the interactive features affect their videos performance.
@@ -65,7 +65,6 @@ YouTube is a world-famous video sharing interactive platform which allows its us
 
 -How do interactive video features helps a video trend on YouTube?
 
->>>>>>> 51779646dade81002abeb2d1c92eaf5f4ca9992f
 
 We want to build a model that will predict the best time to post a trending video by factoring time, category, etc.
 This information can be used by Youtubers that want build a successful page and companies that would want to Sponsor YouTube channels based on their views and audience reach.
@@ -79,13 +78,7 @@ The US data set was run through machine learning algorithms to determine feature
 
 https://public.tableau.com/app/profile/joel6934/viz/The_Reason/YouTubeTrendingTrends?publish=yes
 
-Model Accuracy
-Hours To Trending Model
-time_to_trending
 
-View Predictor Model Accuracy
-views
-=======
 # Machine Learning
 - The data started as a .csv with over 40,000 rows of Youtube videos with the following columns: video_id, trending_date, channel_id, category_id, publish_time, tags, views, likes, dislikes, comment_count, thumbnail, comments_disabled, ratings_disabled, video_error, description.
 - I then began pre-processing the data by removing the video_id, thumbnail_link, video_error_or_removed, comment_count, likes, and dislikes.  These columns were removed due to not having any bearing on the prediction model.  As we are predicting a future videos time to trending, we cannot input the comment counts, likes, or dislikes into the model.  The video_id and thumbnail link also should have no bearing in the final prediction. The next step was to concatanate the text columns into one column, combining the tags, title, channel title, and description.  The next step was to format the date columns into datetime then substract the trending date from the published date to come up with a difference in hours and days the videos took to reach trending.  Finally the file was sampled as 1200 rows and saved as a new csv.    
@@ -100,12 +93,9 @@ views
 ### View Predictor Model Accuracy
 ![views](https://github.com/jereediv/The_Reason/blob/fb434c5b57352955d380bd89288e81f06601b8c8/Images/Views_accuracy.png)
 
-
-
 - The model was then saved as a joblib file to be used in our web app.
->>>>>>> 51779646dade81002abeb2d1c92eaf5f4ca9992f
 
-The model was then saved as a joblib file to be used in our web app.
+
 Database
 FULLY INTEGRATED DATABASE
 
@@ -121,11 +111,11 @@ Includes at least one connection string (using SQLAlchemy or PyMongo) -For our d
 
 Dashboard
 A blueprint for the dashboard is created and includes all of the following:
-<<<<<<< HEAD
+
 =======
 - Using Tableau, we will import and visualize the data in worksheets with a variety of dimensions and measures mentioned below.
 - Description of interactive element(s): We have built an interactive web app which will give the days to trending on YouTube videos based on the month uploaded to YouTube as well as the number a views a video will reach before it hits trending - with Category, Comments Enabled, Ratings Enabled and Month Published as inputs. Obviously, this will not predict whether or not a video will trend, but will give guess on how many days until the video will trend if that is going to happen. The app was built in python with flask, D3, and bootstrap compenents, and is currently live in [Heroku](https://trendingpickles.herokuapp.com/)
->>>>>>> 51779646dade81002abeb2d1c92eaf5f4ca9992f
+
 
 Using Tableau, we are creating a dashboard using at least one interactive element to display stories and sheets making it more convenient to visualize the data.
 Description of interactive element(s): We have built an interactive web app which will give the days to trending on YouTube videos based on the month uploaded to YouTube as well as the number a views a video will reach before it hits trending - with Category, Comments Enabled, Ratings Enabled and Month Published as inputs. Obviously, this will not predict whether or not a video will trend, but will give guess on how many days until the video will trend if that is going to happen. The app was built in python with flask, D3, and bootstrap compenents, and is currently live in Heroku
